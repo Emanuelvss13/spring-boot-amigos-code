@@ -1,6 +1,11 @@
 package com.example.amigoscodespringframework.student;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.time.LocalDate;
+
 
 public class Student {
     private Long id;
